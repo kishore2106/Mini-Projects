@@ -13,3 +13,6 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 2. Higher Order Functions and Passing Functions as Arguments.
 3. To play sound on websites.
 4. Switch Statments.
+5. JS Objects.
+6. Object their Methods and Dot Notations.
+7. Keyboard Event Listeners.
