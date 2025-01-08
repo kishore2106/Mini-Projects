@@ -3,8 +3,9 @@ console.log(numberOfDrums);
 
 for (var i=0; i<numberOfDrums; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function (){
-        alert("I got clicked!");
-        // code to handle button click
+        
+        var audio = new Audio('./sounds/tom-1.mp3');
+        audio.play();
     });
 }
 
