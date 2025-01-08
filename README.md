@@ -16,3 +16,5 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 5. JS Objects.
 6. Object their Methods and Dot Notations.
 7. Keyboard Event Listeners.
+8. Understanding Callbacks.
+9. Adding Animations.
