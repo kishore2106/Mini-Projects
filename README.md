@@ -7,3 +7,7 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 3. Change the image to be random dice.
 4. Change both image elements.
 5. Change the Title to Display a Winner.
+
+# Project 2: Drum kit
+1. Adding Event Listeners to a Button.
+2. Higher Order Functions and Passing Functions as Arguments.
