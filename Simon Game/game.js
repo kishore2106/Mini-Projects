@@ -10,7 +10,9 @@ var userClickedPattern = [];
 $(".btn").on("click", function (){
     var userChoosenColour = $(this).attr("id");
     $("#"+userChoosenColour).fadeOut(100).fadeIn(100);
-    // playSound(userChoosenColour);
+    
+    playSound(userChoosenColour);
+
     userClickedPattern.push(userChoosenColour);
     
     console.log(userClickedPattern);
@@ -24,7 +26,7 @@ function nextSequence(){
     // console.log(randomChoosenColour);
     $("#"+randomChoosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    // playSound(randomChoosenColour);
+    playSound(randomChoosenColour);
 }
 
 
