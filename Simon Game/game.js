@@ -10,7 +10,7 @@ var userClickedPattern = [];
 $(".btn").on("click", function (){
     var userChoosenColour = $(this).attr("id");
     $("#"+userChoosenColour).fadeOut(100).fadeIn(100);
-    // makeSound(userChoosenColour);
+    // playSound(userChoosenColour);
     userClickedPattern.push(userChoosenColour);
     
     console.log(userClickedPattern);
@@ -24,31 +24,31 @@ function nextSequence(){
     // console.log(randomChoosenColour);
     $("#"+randomChoosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    // makeSound(randomChoosenColour);
+    // playSound(randomChoosenColour);
 }
 
 
-// function makeSound(colourClicked){
-//     switch(colourClicked){
-//         case "red":
-//             var audio = new Audio("./sounds/red.mp3");
-//             audio.play();
-//             break;
-//         case "blue":
-//             var audio = new Audio("./sounds/blue.mp3");
-//             audio.play();
-//             break;
-//         case "green":
-//             var audio = new Audio("./sounds/green.mp3");
-//             audio.play();
-//             break;
-//         case "yellow":
-//             var audio = new Audio("./sounds/yellow.mp3");
-//             audio.play();
-//             break;
-//         default :
-//             var audio = new Audio("./sounds/wrong.mp3");
-//             audio.play();
-//             break;
-//     }
-// }
+function playSound(name){
+    switch(name){
+        case "red":
+            var audio = new Audio("./sounds/red.mp3");
+            audio.play();
+            break;
+        case "blue":
+            var audio = new Audio("./sounds/blue.mp3");
+            audio.play();
+            break;
+        case "green":
+            var audio = new Audio("./sounds/green.mp3");
+            audio.play();
+            break;
+        case "yellow":
+            var audio = new Audio("./sounds/yellow.mp3");
+            audio.play();
+            break;
+        default :
+            var audio = new Audio("./sounds/wrong.mp3");
+            audio.play();
+            break;
+    }
+}
