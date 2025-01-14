@@ -28,3 +28,4 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 6. Add Animations to user clicks.
 7. Check the User's Answer Against the Game Sequence.
 8. Game Over.
+9. Restart Game.
