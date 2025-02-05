@@ -29,3 +29,9 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 7. Check the User's Answer Against the Game Sequence.
 8. Game Over.
 9. Restart Game.
+
+# Project 3: Todo-List
+1. Create a Todo List.
+2. CRUD operations applied.
+3. Persist data using postgres database.
+4. Use Express and NodeJS.
