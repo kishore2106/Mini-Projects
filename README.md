@@ -35,3 +35,7 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 2. CRUD operations applied.
 3. Persist data using postgres database.
 4. Use Express and NodeJS.
+
+# Project 3: Keeper App
+1. Initial Setup.
+2. Create a Keeper App with the necessary components (Header, Footer, Notes, App).
