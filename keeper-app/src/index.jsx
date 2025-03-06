@@ -16,6 +16,7 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+//Render all the notes inside notes.js as a seperate Note component.
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from "./components/App";

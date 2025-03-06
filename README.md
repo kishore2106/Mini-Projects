@@ -39,3 +39,4 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 # Project 3: Keeper App
 1. Initial Setup.
 2. Create a Keeper App with the necessary components (Header, Footer, Notes, App).
+3. Render all the notes inside notes.js as a seperate Note component using the map and arrow functions along with React props.
