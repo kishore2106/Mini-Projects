@@ -42,3 +42,4 @@ The Complete 2024 Web Development Bootcamp - Mini Projects
 3. Render all the notes inside notes.js as a seperate Note component using the map and arrow functions along with React props.
 4. Implement the add note functionality
 5. Implement the delete note functionality
+6. React Dependencies and Styling Keeper App

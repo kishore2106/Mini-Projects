@@ -5,8 +5,7 @@
 to show the Keeper App name in an <h1>.
 4. Create a Footer.jsx component that renders a <footer> element
 to show a copyright message in a <p> with a dynamically updated year.
-5. Create a Note.jsx component to show a <div> element with a
-<h1> for a title and a <p> for the content.
+5. Create a Note.jsx component to show a <div> element with a <h1> for a title and a <p> for the content.
 6. Make sure that the final website is styled like the example shown here:
 https://l1pp6.csb.app/
 
@@ -20,6 +19,12 @@ https://l1pp6.csb.app/
 - Callback from the Note component to trigger a delete function.
 - Use the filter function to filter out the item that needs deletion.
 - Pass a id over to the Note component, pass it back to the App when deleting.
+
+9.React Dependencies and Styling Keeper App
+- Implemented Material UI for AddIcon Button and DeleteIcon Button
+- Floating Action Button and Zoom Component Impl
+- Conditional Rendering Expand Note
+- Added Flash Icon Header and Used Background Image using Transperent Textures [https://www.transparenttextures.com/]
 
 HINT: You will need to study the classes in teh styles.css file to appy styling.
 
